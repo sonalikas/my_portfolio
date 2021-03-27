@@ -1,0 +1,95 @@
+
+.welcome{
+	background-color:#FFFFE0;
+	
+}
+*{
+	margin:0;
+	padding: 0;
+}
+/* .nav{
+	background-color: whitesmoke;
+	/* padding: 10px, 10px, 10px, 10px; */
+	/* padding: 1.5% 0% 1.5% 0%;
+} */ 
+.flex-nav {
+	display: flex;
+	flex-wrap: nowrap;
+	background-color: rgba(194, 246, 248, 0.336);
+	padding: 1.5% 0% 1.5% 0%;
+  }
+  
+.links{
+		margin: 0% 13% 0% 15%;
+		font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+		color: #777777;
+		text-decoration: none;
+		font-size: 18px;
+}
+.links:hover,
+.linls:focus{
+	color:	#FFD700;
+	text-decoration: underline;
+}
+.links:active{
+	color: #FFFF00
+}
+.pic img{
+	border-radius: 50%;
+	height: 300px;
+	width: 300px;
+	box-shadow: 2px 2px 2px 2px #c4c48b;
+	/* margin-left: 37%;
+	margin-top: 10%; */
+	/* border: 4px solid #FFFF00; */
+	
+  }
+  .pic{
+	margin-left: 38.5%;
+	padding-top: 10%;
+	padding-bottom: 10%;
+  }
+h1{
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	letter-spacing: 3px;
+	margin-right: 0%; 
+  }
+
+.post{
+	margin-left: 12%;
+}
+	.flex-container {
+	  display: flex;
+	  flex-wrap: nowrap;
+	  background-color: rgba(194, 246, 248, 0.336);
+	}
+	
+	.flex-container > div {
+	  background-color: #f1f1f1;
+	  width: 100px;
+	  margin: 12%;
+	  height: 100px;
+	  text-align: center;
+	  /* line-height: 75px; */
+	  font-size: 20px;
+	  border:2px solid #FFFF00;
+	  border-radius: 100%;
+	}
+.work{
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	letter-spacing: 3px;
+	margin-left: 37%;
+	font-size: 32px;
+	
+}	
+.contact_no{
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	letter-spacing: 3px;
+	margin-left: 39%;
+	font-size: 22px;
+	color:#00aeff
+}
+
+.url {
+	padding-top:12%;
+}
